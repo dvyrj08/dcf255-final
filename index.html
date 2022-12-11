@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap'); </style>
+
+    <title>Document</title>
+</head>
+<body>
+   <nav>
+        <a href="#net-sec">Network Security</a>
+        <a href="#acc-mgmt">Access Management</a>
+        <a href="#app-sec">Application Security</a>
+        <a href="#end-point">End Point Management</a>
+        <a href="#def-in-dep">Defense-in Depth</a>
+
+        <div id="indicator"></div>
+      </nav>
+    
+
+    <div id="net-sec">
+        <p id="p1">     Network Security<br><br>
+            Implementing measures to guard against unauthorised access, abuse, or attacks on your company's computer networks is known as network security. Both internal and external threats may be among them. To successfully secure a network and ensure that it is adequately protected, a number of different layers of security protocols must be implemented. Verify that all of your networks have been properly set up and secured as the first and most crucial step. This can involve using firewalls to manage incoming and outgoing traffic, implementing secure data encryption protocols like Secure Sockets Layer (SSL) or Transport Layer Security (TLS), using encryption to safeguard sensitive data, and using secure authentication techniques like two-factor authentication. In order to ensure the network's continued security, it is also crucial to patch the network frequently and make sure that all users receive adequate training on the best security procedures.<br><br>
+            Recommendations:<br>
+    1. Implement a firewall to restrict access to the internal network and the web server, according to the following network security. Only the services required for the operation of the company should have access, according to how the firewall is configured. The servers and the data stored on them will not be subject to unauthorised access as a result.<br><br>
+    2. Implement a segmented, secure network architecture. Set up two independent networks to divide the web server from the application/database server. Only one network will be impacted, which will reduce the potential damage from an attack.<br><br>
+    3. Set up a Virtual Private Network (VPN) to enable remote access. Thus, all remote access to the system will be safe and encrypted.<br><br>
+    4. Establish a protected wireless network for visitors. By doing this, you can make sure that visitors to the network are connected securely and are unable to access the internal network.<br></p>
+        </div>
+
+     <div id="acc-mgmt"><p>
+            Access management<br><br>
+            Controlling who has permission to access a system and what kind of access they have is known as access management. The process of managing access is also referred to as access management. One way to accomplish this is by putting in place an identity and access management system that makes users authenticate before being granted access to the system. This includes using strong passwords, two-factor authentication, biometric authentication, and any other available authentication techniques. Role-based access control measures, such as limiting certain users to only having access to certain parts of the system, can also make it easier to ensure that only authorised users are able to access the system.<br><br>
+            
+            Recommendations:<br>
+            1. Put in place access control measures to guarantee that only authorised users can access the system.<br><br>
+            2. Make all access points use multi-factor authentication. This will guarantee that only users who have been verified can access the system.<br><br>
+            3. Establish a password policy to guarantee that all passwords are secure and updated on a regular basis.<br>
+        </p>
+            </div>
+            <div id="app-sec">
+                <p>
+                    Application security<br><br>
+Protecting applications from unauthorised access, tampering, and malicious activity is known as application security. Application protection is another name for application security. Applications must be protected by implementing software security measures like input validation, code review, and static analysis. Through input validation, malicious input is screened out and only legitimate data is input into the application. Data corruption can also be avoided by validating input. Code review is the process of examining an application's source code to find and correct any potential security flaws. Static analysis is a technique that examines an application's source code without actually running the programme in order to find any security flaws. Two more ways to help ensure that only authorised users can access the application are monitoring application usage and checking that the application settings have been configured correctly.<br><br>
+
+
+Recommendations:<br>
+1. Use secure coding techniques to make sure that the applications are safe and without flaws.<br><br>
+2. Regularly test the applications' security to find flaws and fix them before they can be used against you.<br><br>
+3. Use an application whitelisting solution to restrict the software that can be run on the system and stop malicious software from being launched.<br>
+
+                </p>
+            </div>
+
+            <div id="end-point">
+                <p>
+                    End point management<br><br>
+End point management is the procedure for controlling individual devices, or endpoints, on a network. Personal computers, mobile phones, and tablet computers are a few examples of endpoints. This entails ensuring that the devices meet the necessary security standards, such as requiring the use of strong passwords and ensuring that the most recent security patches are installed on the devices as well as that the most recent anti-malware software is running on them. Additionally, keeping the network secure requires keeping a regular schedule for monitoring the devices and enforcing rules like those that bar users from visiting unauthorised websites.<br><br>
+
+Recommendations:<br>
+1. Put in place a central endpoint management system. The IT team will be able to centrally manage and distribute security policies to all endpoints as a result.<br><br>
+2. Use a patch management programme to make sure that all endpoints have the most recent security updates installed.<br><br>
+3. Use endpoint anti-virus and anti-malware programmes to safeguard the endpoints against harmful software.<br><br>
+4. Implement endpoint security policies to guarantee secure configuration of every endpoint.<br>
+
+                </p>
+            </div>
+
+<div id="def-in-dep">
+    <p>Defense in Depth<br><br>
+        Defense in depth is a method of system protection that involves using several layers of security controls at once. Implementing firewalls to manage incoming and outgoing traffic, implementing intrusion detection systems to identify and prevent unauthorised access to the system, and segmenting the network into various zones to distinguish between various types of traffic are a few examples of how to do this. Further steps that can be taken to help keep the network secure include maintaining a regular monitoring schedule for the system and verifying that the proper precautions have been taken.<br><br>
+        
+        Recommendations:<br>
+        1. Set up a system for managing security incidents and events to keep an eye on the network for any unusual activity.<br><br>
+        2. Put in place a log management system to gather and keep track of all system logs.<br><br>
+        3. Use a backup and recovery programme to make sure that any data loss can be quickly repaired<br><br>
+        4. Install an intrusion detection system (IDS) to keep an eye out for any malicious activity on the network.<br><br>
+        5. Use a Data Loss Prevention (DLP) solution to make sure that no private information escapes the network.<br>
+        </p>
+</div>
+  
+<div id="credits">
+    <p>
+        Group 10 <br><br>
+        Credits: <br><br>
+        Divyraj Solanki (149093213)<br>
+        Ramandeep Singh (162996219)<br>
+        Nikhil Agrawal()
+        <br>
+        Aaron
+    </p>
+</div>
+</body>
+</html>
